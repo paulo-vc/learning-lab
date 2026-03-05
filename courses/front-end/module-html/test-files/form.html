@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+</head>
+<body>
+    <form name="signup" onsubmit="alert('Enviei o formulario');" autocomplete="on" method="post" action="#">
+        Nome: <input type="text" name="name" /><br> 
+        Idade: <input type="number" name="age"/><br>
+        Senha: <input type="password" name="password"/><br><br>
+        <button type ="submit"> Enviar</button> <br>
+        <hr>
+        <!--INPUT E SEUS TIPOS-->
+        <label>Text: </label> <input type="text"/> <br>
+        <label>Number: </label> <input type="number" min="0" step="5" max="100"/> <br>
+        <label>Button: </label> <input type="button" value="enviar"/> <br>
+        <label>Range: </label> <input step="10" max="250" type="range"/> <br>
+        <label>Color: </label> <input type="color"/> <br>
+        <label>Email: </label> <input type="email"/> <br>
+        <label>URL: </label> <input type="url"/> <br>
+        <label>Date: </label> <input type="date" /><br>
+        <label>Week: </label> <input type="week"/><br>
+        <label>Month: </label> <input type="month"/><br>
+        <label>Checkbox: </label> <input type="checkbox" /><br>
+        <label>Radio: </label> <input name="teste" type="radio"/> <input name="teste" type="radio"/> <br>
+        <label>Hidden: </label> <input type="hidden"/><br>
+        <label>File: </label> <input type="file" multiple/><br>
+        <label>Search: </label> <input type="search"/><br>
+        <hr>
+        <!--RESETA O FORMULÁRIO QUE ESTÁ INSERIDO-->
+       <button type="reset">Resetar</button> <br>
+       <hr>
+       <select multiple name="cargo">
+            <option selected value="default">Selecione uma opção</option>
+            <option value="cargo">Cargo</option>
+            <option value="setor">Setor</option>
+            <option value="departamento">Departamento</option>
+       </select>
+       <hr>
+       <br>
+
+       <label>Mensagem: </label>
+       <textarea rows="20" cols="50" name="message"></textarea>
+
+
+    </form>
+</body>
+</html>

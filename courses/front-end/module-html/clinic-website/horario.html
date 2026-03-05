@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+        table {
+        -webkit-box-shadow: 3px 5px 15px 8px #000000;
+        box-shadow: 3px 5px 15px 8px #000000;
+        }
+        table thead th {
+            background-color: black;
+            color: white;
+        }
+        table tfoot td {
+            background-color: lightgray;
+        }
+        table tbody tr:nth-child(even) td {
+            background-color: #f1f1f1;
+        }
+        table tbody tr:hover td {
+            background-color: #f1f1f1;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu" >
+            <caption><strong>HOME PAGE</strong></caption>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="horario.html">Horários</a></li>
+                <li><a href="contato.html">Contatos</a></li>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="header">
+                <h1 align="center">CLINICA TABLETE</h1>
+                <h2 align="center">Horários de Atendimento</h2>
+            <div class="content">
+                    <table summary="Tabela de cadastro" width="800" align="center" cellspacing="2" cellpadding="2">
+                        <thead>
+                            <tr><th colspan="4">Horário de Atendimento</th></tr>
+                            <tr>
+                                <th title="horario">Serviços</th>
+                                <th>Segunda a Sexta</th>
+                                <th>Sábados</th>
+                                <th>Feriados</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Clínica geral</td>
+                                <td>08h - 19h</td>
+                                <td>08h - 14h</td>
+                                <td>08h - 14h</td>
+                            </tr>
+                            <tr>
+                                <td>Psicologia</td>
+                                <td>08h - 19h</td>
+                                <td>08h - 14h</td>
+                                <td>08h - 14h</td>
+                            </tr>
+                            <tr>
+                                <td>Pediatria</td>
+                                <td>08h - 19h</td>
+                                <td>08h - 18h</td>
+                                <td>-</td>
+                            </tr>
+                            <tr>
+                                <td>Oftalmologia</td>
+                                <td>08h - 19h</td>
+                                <td>08h - 18h</td>
+                                <td>-</td>
+                            </tr>
+                        </tbody>
+                    </table>
+            </div>
+    
+            <div class="footer">
+                <div class="column2">
+                    <h3>Contatos</h3>
+                    <p>Telefone: (11) 3456-7890</p>
+                    <p>WhatsApp: (11) 99876-5432</p>
+                    <p>Email: contato@clinicatablete.com.br</p>
+                </div>
+                <div class="column2">
+                    <h3>Endereço</h3>
+                    <p>Rua das Palmeiras, 245</p>
+                    <p>Bairro Jardim Aurora</p>
+                    <p>São Paulo – SP</p>
+                    <p>CEP: 04567-890</p>
+                </div>
+                <p>&copy; 2026 Clinica Tablete. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

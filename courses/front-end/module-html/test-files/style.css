@@ -1,0 +1,30 @@
+* {
+    /*Configuração Global do Site*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    /*Configuração somente do H2*/
+    font-size: 92px;
+    font-style: italic;
+    font-weight: normal;
+    font-family: 'Ubuntu';
+}
+
+.teste {
+    color: red;
+}
+
+#teste {
+    color: green;
+}
+
+.para {
+    font-size: 22px;
+}
+
+h.para {
+    font-size: 123px;
+}
